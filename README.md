@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Typing App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Typing App
 
-## Available Scripts
+Typing App est une application web qui permet aux utilisateurs de pratiquer la dactylographie en réécrivant des phrases affichées. L'application fournit des statistiques sur les performances de l'utilisateur, telles que le nombre de mots et de lettres par seconde, ainsi que le temps total pris pour réécrire la phrase. Elle affiche également les lettres ratées et le nombre de fois qu'elles ont été ratées.
 
-In the project directory, you can run:
+## Fonctionnalités
 
-### `npm start`
+- Affichage d'une phrase aléatoire à réécrire.
+- Coloration des lettres en vert si elles sont correctes et en rouge si elles sont incorrectes.
+- Empêchement de la saisie de nouvelles lettres si une erreur est présente.
+- Empêchement du déplacement du curseur autrement qu'avec la touche `Backspace`.
+- Affichage des statistiques de performance (mots par seconde, lettres par seconde, temps pris).
+- Affichage des lettres ratées et du nombre de fois qu'elles ont été ratées.
+- Bouton "Retry" pour réinitialiser l'application avec une nouvelle phrase aléatoire.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clonez le dépôt :
+    ```bash
+    git clone https://github.com/Primios/typing-app.git
+    cd typing-app
+    ```
 
-### `npm test`
+## Version en ligne
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Vous pouvez aussi essayer la version web de l'application : [Typing App en ligne](https://primios.github.io/typing-app/)
