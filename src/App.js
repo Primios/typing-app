@@ -128,10 +128,19 @@ function App() {
     ));
   };
 
+  const handleGitHubClick = () => {
+    window.open('https://github.com/Primios/typing-app', '_blank');
+  };
+
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Typing App</h1>
+        <button 
+          onClick={handleGitHubClick} 
+          style={{ position: 'absolute', top: '10px', left: '10px', background: 'none', border: 'none' }}
+        >
+          <img src="../type-app/public/25231.png" alt="GitHub" style={{ width: '30px', height: '30px' }} />
+        </button>
         <p>{getColoredPhrase()}</p>
         <form onSubmit={(e) => e.preventDefault()}>
           <input
